@@ -39,7 +39,15 @@ const messages = [
 ];
 
 function App() {
-  return <MessageHistory list={messages} />;
+  return (
+    <div className="clearfix container">
+      <div className="chat">
+        <div className="chat-history">
+          <MessageHistory list={messages} />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default App;
