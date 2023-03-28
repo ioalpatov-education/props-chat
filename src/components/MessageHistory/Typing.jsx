@@ -2,13 +2,12 @@ import PropTypes from "prop-types";
 
 const Typing = ({ from, message }) => {
   const { name } = from;
-  const { time, text } = message;
+  const { time } = message;
   return (
     <li className="clearfix">
       <div className="message-data">
         <span className="message-data-name">{name}</span>
         <span className="message-data-time">{time}</span> &nbsp; &nbsp;
-        <i className="fa fa-circle me"></i>
       </div>
       <div className="typing">
         <div className="typing__dot"></div>

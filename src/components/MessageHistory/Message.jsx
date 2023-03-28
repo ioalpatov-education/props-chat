@@ -9,7 +9,6 @@ const Message = ({ from, message }) => {
       <div className="message-data">
         <span className="message-data-name">{name}</span>
         <span className="message-data-time">{time}</span> &nbsp; &nbsp;
-        <i className="fa fa-circle me"></i>
       </div>
       <div className="message my-message">{text}</div>
     </li>
